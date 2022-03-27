@@ -1,0 +1,25 @@
+1. Write an interface named ReadingMaterial with two(2) abstract methods. (5 points)
+The first method named copyrightNotice and the second method named pageCount that returns the number of pages of the material. Both methods have no parameters. It also has two constant attributes, first one is named TAGLINE which contains the value "I can do it! God bless." and the second one named MAX_CONTENT which holds the value 100.
+
+2. Write a class named Author with the following attributes: firstName, lastName and middleInitial. 
+Provide getters/setters for the lastName. Override the toString method of the Object class. It will follow the format <firstName> <middleInitial>. <lastName> for example: Sigurado N. Pasar for its string representation.
+
+3. Write an abstract class named Book which is a ReadingMaterial with five(5) attributes: code, title, Author, category and pages. 
+Provide two(2) constructors: the first one allows the initialization of all attributes and the second constructor automatically  set the category to "Computer" while allowing the setting of the values of the rest of the attributes. 
+The class implements all the methods of the ReadingMaterials. Book also have an abstract method named display that outputs the content of the attributes. Sample output of the display method if implemented would be:
+Code: COMP-JAV-0123
+Title: Programming in Java
+Author: James I. Gooseling
+Category: Computer
+Pages: 150
+
+4. Write a class named ComputerBook which is a Book. It has additional attributes named area and isEBookAvailable. 
+An area refers to a specific computer discipline while the isEBookAvailable represents its availability in ebook version or not. Provide two(2) constructors: the first one sets the area to "Programming";  and the second constructor sets the area to "Networking" and isEBookAvailable to true. It overrides the equals method of the Object class.  Two ComputerBooks are equal if the code and area is the same.
+
+5. Write a class named BookList which contains a list of Book implemented using array. 
+It should have additional attributes named count and max. The count represents the number of Book objects inside the array while the max is initialized by the user through the constructor which represents the maximum capacity of the list.  Provide a constructor that sets the max value by calling the MAX_CONTENT attribute of the ReadingMaterial class.  Implement the following methods:
+ - public boolean addBook(Book book); // returns true if successfully added in the list else false
+ - public int search(Book book); // returns -1 if not found and returns the index value if found
+ - public boolean removeBook(Book book); // removes the book on the list and returns if it is successful or not
+   // replace the book being removed by replacing it with the last element of the list
+ - public void displayList(); // displays the book contents using foreach

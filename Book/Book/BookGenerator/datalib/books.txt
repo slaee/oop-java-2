@@ -1,0 +1,6 @@
+978-0131103627|The C programming 2nd Edition|Dennis Ritchie|Programming|286
+978-0131872486|Thinking In Java 4th Edition|Bruce Eckel|Programming|1150
+978-0134685997|C++ Primer Plus|Stanley Lippman|Programming|554
+978-0136077436|The C++ Programming Language|Bjarne Stroustrup|Programming|1054
+978-0134690048|Networking with Linux|Michael Kerrisk|Networking|792
+978-1430230038|C# 6.0 in a Nutshell|Andrew Troelsen|Programming|535
