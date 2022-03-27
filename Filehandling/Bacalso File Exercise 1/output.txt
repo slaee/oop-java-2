@@ -1,0 +1,1 @@
+The miles/gallon for this tank was 22.421875

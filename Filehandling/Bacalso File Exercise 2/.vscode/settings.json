@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "jackson.jar",
+        "jackson-core-asl-1.9.13.jar",
+        "jackson-mapper-asl-1.9.13.jar",
+        "json-simple-1.1.1.jar"
+    ]
+}

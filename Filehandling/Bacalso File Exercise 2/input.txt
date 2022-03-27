@@ -1,0 +1,15 @@
+[ {
+  "accountNumber" : 100,
+  "beginningBalance" : 5394.78,
+  "totalCharges" : 1000.0,
+  "totalCredits" : 500.0,
+  "creditLimit" : 5500.0,
+  "balance" : 0.0
+}, {
+  "accountNumber" : 124,
+  "beginningBalance" : 5999.0,
+  "totalCharges" : 1299.0,
+  "totalCredits" : 400.0,
+  "creditLimit" : 6000.0,
+  "balance" : 0.0
+} ]
